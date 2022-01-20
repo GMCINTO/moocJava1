@@ -2,31 +2,11 @@
 public class Main {
 
     public static void main(String[] args) {
-        // you can write code here for testing your program
+        // This is just an empty main method, where you can test your
+        // Song class. You can for instance try this:
 
-        Song jackSparrow = new Song("The Lonely Island", "Jack Sparrow", 196);
-        Song anotherSparrow = new Song("The Lonely Island", "Jack Sparrow", 196);
+        Song garden = new Song("In The Garden", 10910);
+        System.out.println("The song " + garden.name() + " has a length of " + garden.length() + " seconds.");
 
-//        Song song1 = new Song("The Lonely Island", "Jack Sparrow", 196);
-//        Song song2 = new Song("The Lonely Island", "Jack Sparrow", 196);
-        Song song1 = new Song("The Lonely Island", "Jack Sparrow", 196);
-        Song song2 = new Song("The Lonely Island", "Jack Sparrow", 196);
-        if (song1.equals(song2)) {
-            System.out.println("Same!");
-        }
-        if (song1.equals(song2)) {
-            System.out.println("Same!");
-        }
-
-        if (jackSparrow.equals(anotherSparrow)) {
-            System.out.println("Songs are equal.");
-        }
-
-        if (jackSparrow.equals("Another object")) {
-            System.out.println("Strange things are afoot.");
-        }
-
-//        if (Objects.equals(song1, song2)) {
-//        }
     }
 }
